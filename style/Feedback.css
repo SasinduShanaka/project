@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 150px;
+}
+
+
+
+
+    /* Testimonials */
+    .testimonials {
+        padding: 50px 20px;
+        background-color: #ebebeb34;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .testimonial-cards {
+        display: flex;
+        justify-content: space-around;
+    
+        gap: 50px;
+        margin: 70px;
+    
+      
+    }
+    
+    .testimonial {
+        width: 30%;
+        background-color: #FFFFFF;
+    
+        box-shadow: 0px 5px 5px rgba(48, 48, 48, 0.231);
+        padding: 20px;
+        border-radius: 10px;
+        align-items: center;
+       /*color: #FFFFFF;*/
+    }
+    
+    .testimonial:hover  {
+        background-color: #006496;
+        color: white;
+         
+        transition: transform 0.4s ease-in-out; /* Smooth zoom-in effect */
+    }
+    
+    
+    .testimonial-image{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    
+    .testimonial-stars {
+        width: 200px;
+        height: 70px;
+    }
+    
+
+
+
+/* feedback form */
+
+.feedback-container {
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 37%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px #03496c;;
+    width: 500px;
+    /* justify-content: center; */
+}
+
+
+#heading{
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 500;
+    color:#03496c;
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #03496c;
+}
+
+label {
+    display: block;
+    font-weight: 500px;
+    margin-bottom: 8px;
+    color: #03496c;
+}
+
+input[type="text"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #03496c;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.star-rating {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.star {
+    font-size: 30px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.star.selected {
+    color: gold;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #03496c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(7, 105, 151); 
+}

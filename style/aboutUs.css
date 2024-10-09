@@ -1,0 +1,92 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebebeb98;  
+    color: #333;
+    padding-top: 150px;
+}
+
+#about-us {
+  
+    padding: 40px 20px;
+    background-image: url('images/aboutUs-img.jpg');
+    background-size: cover;
+    background-position: center;
+
+   
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+h1 {
+
+  
+margin-bottom: 50px;
+    justify-content: center;
+  margin-top: -20px;
+    font-size: 2rem; 
+    font-weight: bold;
+    color: #03496c; 
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+
+.about-section {
+  
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(48, 48, 48, 0.231);
+    cursor: pointer;
+    background-color: #03496c;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+
+
+}
+.about-section:hover{
+    background-color: rgb(7, 105, 151); 
+  
+}
+
+.about-section h2 {
+    font-size: 1.8em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #ffffff;
+    font-weight: 100px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .about-section h2 {
+        font-size: 1.5em;
+    }
+
+    .about-section p {
+        font-size: 1em;
+    }
+}
+

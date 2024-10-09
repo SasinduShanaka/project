@@ -1,0 +1,70 @@
+/*header css*/
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures space between logo, menu, and user icon */
+    background-color:#f0f0f0; /* You can adjust this */
+    padding: 3px 15px;
+    border-radius: 20px;
+    margin-top: auto;
+  }
+  #logo{
+  
+     height: 100px;
+     width: 300px;
+     justify-content: center;
+  
+  }
+  #user{
+    height: 60px;
+    width: 55px;
+    cursor: pointer;
+    margin-right: 30px;
+    
+  }
+  
+  ul.menu {
+      list-style-type: none;
+      margin-right: 150px;
+      padding: 5px;
+      overflow: hidden;
+      background-color:#f0f0f0;
+      border-radius: 10px;
+      
+    }
+    
+    li.menu {
+      float: left;
+    }
+    
+    li.menu a {
+      display: block;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-weight: bolder;
+      font-size: large;
+      font-family:Arial, Helvetica, sans-serif;
+  
+    }
+    
+    li.menu a:hover {
+      background-color:#00b7ff;
+      padding: 18px;
+      border-radius: 10px;
+    }
+
+   
+
+    #btn1 {
+      border-radius: 4px;
+      border: none;
+      background-color: rgb(0, 163, 208); 
+      padding: 8px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 30px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }

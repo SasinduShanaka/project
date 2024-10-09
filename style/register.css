@@ -1,0 +1,103 @@
+header 
+{
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 500;
+    color:#03496c;
+    text-align: center;
+}
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'poppins';
+}
+
+body 
+{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container 
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 30px;  
+}
+
+label 
+{
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin: 30px;
+}
+
+input[type="text"],
+input[type="numbers"],
+input[type="tel"],
+input[type="email"],
+input[type="password"]
+{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#chk , .register-link
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#chk
+{
+    accent-color : blue;
+}
+
+.register-link p a 
+{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.register-link p a :hover
+{
+    text-decoration: underline;
+}
+
+.register-link  a:hover 
+{
+    color: blue;
+}
+
+#sbtbtn 
+{
+    width: 100%;
+    padding: 10px;
+    background-color: #03496c;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#sbtbtn:hover 
+{
+    background-color: blue;
+}

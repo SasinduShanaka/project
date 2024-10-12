@@ -1,1 +1,1 @@
-# IWT_Group_project
+# IWT_Group_project - Life Insurance Management System
